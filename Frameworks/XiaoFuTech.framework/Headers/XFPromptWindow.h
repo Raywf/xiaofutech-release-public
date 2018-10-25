@@ -2,7 +2,7 @@
 //  XFPromptWindow.h
 //  XiaoFuTechHelper
 //
-//  Created by 胡文峰 on 2017/9/27.
+//  Created by xiaofutech on 2017/9/27.
 //  Copyright © 2017年 XiaoFu. All rights reserved.
 //
 

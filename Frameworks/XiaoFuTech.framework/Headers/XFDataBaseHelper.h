@@ -2,7 +2,7 @@
 //  XFDataBaseHelper.h
 //  XiaoFuTechHelper
 //
-//  Created by 胡文峰 on 2017/9/28.
+//  Created by xiaofutech on 2017/9/28.
 //  Copyright © 2017年 XiaoFu. All rights reserved.
 //
 

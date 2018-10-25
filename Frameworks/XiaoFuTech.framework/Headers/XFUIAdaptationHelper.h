@@ -2,7 +2,7 @@
 //  XFUIAdaptationHelper.h
 //  XiaoFuTech
 //
-//  Created by 胡文峰 on 2018/1/19.
+//  Created by xiaofutech on 2018/1/19.
 //  Copyright © 2018年 XiaoFu. All rights reserved.
 //
 
@@ -11,6 +11,8 @@
 @interface XFUIAdaptationHelper : NSObject
 
 + (CGFloat)SysVersion;
+
++ (NSString *)AppBundleId;
 
 + (NSString *)AppShortVersion;
 

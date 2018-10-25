@@ -2,14 +2,13 @@
 //  NSObject+XFCategory.h
 //  XiaoFuTechBasic
 //
-//  Created by 胡文峰 on 2017/9/25.
+//  Created by xiaofutech on 2017/9/25.
 //  Copyright © 2017年 XiaoFu. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 @interface NSObject (XFCategory)
-
 
 #define XF_CodingImplementation \
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {\
@@ -53,6 +52,11 @@ return [self xf_copyWithZone:zone];\
  @return 复制完成的对象
  */
 - (id)xf_copyWithZone:(NSZone *)zone;
+
+#pragma mark >> 带参，键盘监听 <<
+@property (nonatomic, strong) id xf_object;
+@property (nonatomic, copy) void (^xf_keyboardWillShow)(NSTimeInterval duration, CGFloat height);
+@property (nonatomic, copy) void (^xf_keyboardWillHide)(NSTimeInterval duration, CGFloat height);
 
 #pragma mark >> 安全性检查 <<
 /**

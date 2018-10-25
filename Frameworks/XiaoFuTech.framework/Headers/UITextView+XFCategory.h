@@ -2,7 +2,7 @@
 //  UITextView+XFCategory.h
 //  XiaoFuTech
 //
-//  Created by 胡文峰 on 2017/11/26.
+//  Created by xiaofutech on 2017/11/26.
 //  Copyright © 2017年 XiaoFu. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  XFImageHelper.h
 //  XiaoFuTech
 //
-//  Created by 胡文峰 on 2017/11/19.
+//  Created by xiaofutech on 2017/11/19.
 //  Copyright © 2017年 XiaoFu. All rights reserved.
 //
 

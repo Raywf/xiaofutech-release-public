@@ -2,7 +2,7 @@
 //  XFFileHelper.h
 //  XiaoFuTech
 //
-//  Created by 胡文峰 on 2017/10/16.
+//  Created by xiaofutech on 2017/10/16.
 //  Copyright © 2017年 XiaoFu. All rights reserved.
 //
 

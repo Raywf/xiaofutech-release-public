@@ -2,7 +2,7 @@
 //  UIView+XFCategory.h
 //  XiaoFuTechBasic
 //
-//  Created by 胡文峰 on 2017/9/25.
+//  Created by xiaofutech on 2017/9/25.
 //  Copyright © 2017年 XiaoFu. All rights reserved.
 //
 
@@ -77,15 +77,27 @@
 
 #pragma mark - Other Quick Methods
 ///利用UIView，生成一张渐变颜色的图片，colors；UIColor对象—渐变颜色数组，locations；NSNumber对象-颜色渐变关键位置(取值范围0-1)
-+ (UIImage *)XF_GenerateColorGradientEffectImageColors:(NSArray <UIColor *>*)colors Locations:(NSArray <NSNumber *>*)locations StartPoint:(CGPoint)startPoint EndPoint:(CGPoint)endPoint Size:(CGSize)size;
++ (UIImage *)XF_GenerateColorGradientEffectImageColors:(NSArray <UIColor *>*)colors
+                                             Locations:(NSArray <NSNumber *>*)locations
+                                            StartPoint:(CGPoint)startPoint
+                                              EndPoint:(CGPoint)endPoint Size:(CGSize)size;
 
 ///添加阴影效果，视图的clipsToBounds属性值必须为NO，阴影颜色，阴影偏移量，阴影半径，阴影透明度
-- (void)xf_AddShadowEffectColor:(UIColor *)color Offset:(CGSize)offset Radius:(CGFloat)radius Opacity:(CGFloat)opacity;
+- (void)xf_AddShadowEffectColor:(UIColor *)color Offset:(CGSize)offset
+                         Radius:(CGFloat)radius Opacity:(CGFloat)opacity;
 ///添加阴影效果，视图的clipsToBounds属性值必须为NO，阴影颜色，阴影偏移量，阴影路径，阴影透明度
-- (void)xf_AddShadowEffectColor:(UIColor *)color Offset:(CGSize)offset Path:(UIBezierPath *)path Opacity:(CGFloat)opacity;
+- (void)xf_AddShadowEffectColor:(UIColor *)color Offset:(CGSize)offset
+                           Path:(UIBezierPath *)path Opacity:(CGFloat)opacity;
 
 ///添加颜色渐变效果，colors；UIColor对象—渐变颜色数组，locations；NSNumber对象-颜色渐变关键位置(取值范围0-1)
-- (CALayer *)xf_AddColorGradientEffectColors:(NSArray <UIColor *>*)colors Locations:(NSArray <NSNumber *>*)locations StartPoint:(CGPoint)startPoint EndPoint:(CGPoint)endPoint Frame:(CGRect)frame;
+- (CAGradientLayer *)xf_AddColorGradientEffectColors:(NSArray <UIColor *>*)colors
+                                           Locations:(NSArray <NSNumber *>*)locations
+                                          StartPoint:(CGPoint)startPoint
+                                            EndPoint:(CGPoint)endPoint Frame:(CGRect)frame;
+
+///边框虚线化
+- (CAShapeLayer *)xf_AddDashLineBorderWidth:(CGFloat)borderWidth BorderColor:(UIColor *)borderColor
+                                DashPattren:(CGFloat)dashPattern IsRound:(BOOL)isRound;
 
 ///获取某个像素点的颜色值
 - (UIColor *)xf_ColorAtPixelPoint:(CGPoint)point Alpha:(CGFloat)alpha;

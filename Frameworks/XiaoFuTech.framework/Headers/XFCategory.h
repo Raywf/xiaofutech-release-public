@@ -2,7 +2,7 @@
 //  XFCategory.h
 //  XiaoFuTechBasic
 //
-//  Created by 胡文峰 on 2017/9/25.
+//  Created by xiaofutech on 2017/9/25.
 //  Copyright © 2017年 XiaoFu. All rights reserved.
 //
 
@@ -20,10 +20,12 @@
 
 #import "UIDevice+XFCategory.h"
 #import "UIViewController+XFCategory.h"
+#import "UIAlertController+XFCategory.h"
 #import "UIFont+XFCategory.h"
 #import "UIColor+XFCategory.h"
 #import "UIImage+XFCategory.h"
 #import "UIView+XFCategory.h"
+#import "UISearchBar+XFCategory.h"
 #import "UILabel+XFCategory.h"
 #import "UIButton+XFCategory.h"
 #import "UITextField+XFCategory.h"

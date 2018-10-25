@@ -2,7 +2,7 @@
 //  XFAppIconHelper.h
 //  XiaoFuTech
 //
-//  Created by 胡文峰 on 2018/5/31.
+//  Created by xiaofutech on 2018/5/31.
 //  Copyright © 2018年 XiaoFu. All rights reserved.
 //
 

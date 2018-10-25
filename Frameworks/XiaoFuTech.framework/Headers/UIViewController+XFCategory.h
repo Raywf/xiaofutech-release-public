@@ -2,13 +2,19 @@
 //  UIViewController+XFCategory.h
 //  XiaoFuTechBasic
 //
-//  Created by 胡文峰 on 2017/9/25.
+//  Created by xiaofutech on 2017/9/25.
 //  Copyright © 2017年 XiaoFu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (XFCategory)
+@protocol XFBackButtonHandlerProtocol <NSObject>
+@optional
+// Override this method in UIViewController derived class to handle 'Back' button click
+-(BOOL)xf_NavigationShouldPopOnBackButton;
+@end
+
+@interface UIViewController (XFCategory) <XFBackButtonHandlerProtocol>
 
 @property (nonatomic, strong) id xf_Parameters;
 
