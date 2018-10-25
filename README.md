@@ -1,2 +1,2 @@
 # xiaofutech-release-public
-XiaoFuTech
+iOS快捷开发工具包 XiaoFuTech.framework
