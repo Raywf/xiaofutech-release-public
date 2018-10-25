@@ -1,8 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "xiaofutech-release-public" 		# 项目名称
-  s.version      = "1.0.0" 		# 版本号 与 你仓库的 标签号 对应
+  s.version      = "1.0.1" 		# 版本号 与 你仓库的 标签号 对应
   s.license      = "MIT" 	 # 开源证书
   s.summary      = "小肤iOS快捷开发工具包，Release，来自公有仓库" 	# 项目简介
+  s.deprecated = false
 
   s.homepage     = "https://github.com/Raywf/xiaofutech-release-public" 	# 你的主页
   s.source       = { :git => "https://github.com/Raywf/xiaofutech-release-public.git", :tag => "#{s.version}" } 	# 你的仓库地址，不能用SSH地址
